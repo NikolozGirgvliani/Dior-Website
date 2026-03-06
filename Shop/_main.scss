@@ -1,0 +1,105 @@
+.shopp {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(223, 223, 223);
+    width: 50%;
+    padding-bottom: 1.5rem;
+    padding-top: 1rem;
+    margin: 0 auto;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+
+    .cards {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex: row;
+        gap: 2rem;
+        margin-top: 1.5rem;
+        flex-wrap: wrap;
+
+        .card1 {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card1pht {
+                width: 10rem;
+                border-radius: 1rem;
+        }
+
+        .card1pht:hover{
+            transform: scale(1.05);
+            box-shadow: 0px 0px 20px 0px;
+        }
+
+        .Buytton{
+            margin-top: 0.5rem;
+            border-radius: 1rem;
+            height: 2rem;
+            background-color: rgb(84, 136, 248);
+            color: white;
+        }
+
+        .Buytton:hover{
+            background-color: rgb(124, 164, 250);
+        }
+    }
+}
+
+.shopp2 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(223, 223, 223);
+    width: 50%;
+    padding-bottom: 1.5rem;
+    padding-top: 1rem;
+    margin: 0 auto;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+
+    .cards {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex: row;
+        gap: 2rem;
+        margin-top: 1.5rem;
+        flex-wrap: wrap;
+
+        .card1 {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card1pht {
+            width: 10rem;
+            border-radius: 1rem;
+        }
+
+        .card1pht:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 0px 20px 0px;
+        }
+
+        .Buytton{
+            margin-top: 0.5rem;
+            border-radius: 1rem;
+            height: 2rem;
+            background-color: rgb(101, 6, 218);
+            color: white;
+        }
+
+        .Buytton:hover{
+            background-color: rgb(119, 20, 240);
+        }
+    }
+}
+
+@import "footer"

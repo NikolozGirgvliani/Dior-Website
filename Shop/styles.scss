@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    transition: 0.2s;
+}
+
+body {
+    background: url('../Photos/back.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+
+    .navbar-middle {
+        display: flex;
+        gap: 1.5rem;
+        font-size: 0.6rem;
+        padding-top: 0.5rem;
+    }
+
+    .navbar-right {
+        display: flex;
+        gap: 1rem;
+        font-size: 0.6rem;
+        padding-top: 0.5rem;
+    }
+}
+
+.logo {
+    font-family: serif;
+    cursor: default;
+    text-decoration: none;
+    color: black;
+}
+
+.log-in,
+.sign-up {
+    width: 5rem;
+    height: 2rem;
+    border: none;
+    border-radius: 1rem;
+    font-weight: bold;
+}
+
+.log-in {
+    background-color: rgb(3, 73, 134);
+    transition: 0.2s;
+}
+
+.log-in:hover {
+    background-color: rgb(2, 84, 156);
+    transition: 0.2s;
+}
+
+.sign-up {
+    background-color: rgb(84, 136, 249);
+    transition: 0.2s;
+}
+
+.sign-up:hover {
+    background-color: rgb(105, 151, 249);
+    transition: 0.2s;
+}
+
+a {
+    text-decoration: none;
+}
+
+.home,
+.shop,
+.about,
+.contact {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition: 0.2s;
+}
+
+.home:hover,
+.shop:hover,
+.about:hover,
+.contact:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+@media (max-width: 620px) {
+
+    .home,
+    .shop,
+    .about,
+    .contact {
+        font-size: 0.9rem;
+    }
+
+    .log-in,
+    .sign-up {
+        width: 3rem;
+        height: 2rem;
+        font-size: 0.7rem;
+    }
+}
+
+@import "main"

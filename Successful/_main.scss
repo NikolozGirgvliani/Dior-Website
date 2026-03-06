@@ -1,0 +1,41 @@
+.succesfully{
+    width: 34rem;
+    height: 22rem;
+    background-color: white;
+    border-radius: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 2rem;
+
+    .home1{
+        margin: 0 auto;
+        margin-top: 1rem;
+        width: 10rem;
+        height: 3rem;
+        border-radius: 2rem;
+        border: 1.5px solid black;
+        background-color: rgb(84, 136, 249);
+    }
+
+    .home1:hover{
+        background-color: rgb(105, 151, 249);
+        transform: scale(1.05);
+    }
+}
+
+@media (max-width: 620px) {
+    .succesfully {
+        width: 25rem;
+
+        .home1 {
+            width: 8rem;
+        }
+    }
+}
+
+
+@import "footer"

@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  transition: 0.2s;
+}
+
+body {
+  background: url("../Photos/back.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem;
+}
+header .navbar-middle {
+  display: flex;
+  gap: 1.5rem;
+  font-size: 0.6rem;
+  padding-top: 0.5rem;
+}
+header .navbar-right {
+  display: flex;
+  gap: 1rem;
+  font-size: 0.6rem;
+  padding-top: 0.5rem;
+}
+
+.logo {
+  font-family: serif;
+  cursor: default;
+  text-decoration: none;
+  color: black;
+}
+
+.log-in,
+.sign-up {
+  width: 5rem;
+  height: 2rem;
+  border: none;
+  border-radius: 1rem;
+  font-weight: bold;
+}
+
+.log-in {
+  background-color: rgb(3, 73, 134);
+  transition: 0.2s;
+}
+
+.log-in:hover {
+  background-color: rgb(2, 84, 156);
+  transition: 0.2s;
+}
+
+.sign-up {
+  background-color: rgb(84, 136, 249);
+  transition: 0.2s;
+}
+
+.sign-up:hover {
+  background-color: rgb(105, 151, 249);
+  transition: 0.2s;
+}
+
+a {
+  text-decoration: none;
+}
+
+.home,
+.shop,
+.about,
+.contact {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  transition: 0.2s;
+}
+
+.home:hover,
+.shop:hover,
+.about:hover,
+.contact:hover {
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+
+@media (max-width: 620px) {
+  .home,
+  .shop,
+  .about,
+  .contact {
+    font-size: 0.9rem;
+  }
+  .log-in,
+  .sign-up {
+    width: 3rem;
+    height: 2rem;
+    font-size: 0.7rem;
+  }
+}
+.succesfully {
+  width: 34rem;
+  height: 22rem;
+  background-color: white;
+  border-radius: 1rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+.succesfully .home1 {
+  margin: 0 auto;
+  margin-top: 1rem;
+  width: 10rem;
+  height: 3rem;
+  border-radius: 2rem;
+  border: 1.5px solid black;
+  background-color: rgb(84, 136, 249);
+}
+.succesfully .home1:hover {
+  background-color: rgb(105, 151, 249);
+  transform: scale(1.05);
+}
+
+@media (max-width: 620px) {
+  .succesfully {
+    width: 25rem;
+  }
+  .succesfully .home1 {
+    width: 8rem;
+  }
+}
+footer {
+  display: flex;
+  flex-direction: row;
+  margin-top: 11rem;
+  margin-left: 1rem;
+  justify-content: space-between;
+}
+
+.bottom-left {
+  max-width: 400px;
+  width: 100%;
+}
+.bottom-left .txt {
+  color: white;
+  font-weight: 200;
+  font-size: clamp(1rem, 2vw, 1.6rem);
+}
+.bottom-left .txt-small {
+  color: rgb(216, 216, 216);
+  font-weight: 200;
+  font-size: clamp(0.85rem, 1.2vw, 1.1rem);
+}
+
+.footer-pht {
+  width: 20rem;
+  border-radius: 2rem;
+  box-shadow: 5px 5px 20px 5px;
+  margin-top: -7.5rem;
+  margin-right: 1rem;
+}
+
+.footer-pht:hover {
+  transform: scale(1.03);
+}
+
+@media (max-width: 780px) {
+  .footer-pht {
+    width: 15rem;
+    margin-top: -6.5rem;
+  }
+  footer {
+    margin-top: 26rem;
+    margin-left: 1rem;
+  }
+}
+@media (max-width: 620px) {
+  .footer-pht {
+    width: 10rem;
+    margin-top: -1.5rem;
+  }
+  footer {
+    margin-top: 31rem;
+    margin-left: 1rem;
+  }
+}/*# sourceMappingURL=styles.css.map */
